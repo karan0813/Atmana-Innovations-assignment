@@ -23,7 +23,7 @@ function App() {
   return (<>
     {loding ? <div className="flex flex-col items-center justify-center  mt-10"> <div class="lds-facebook w-full  "><div></div><div></div><div></div></div></div>
       : <div className="  h-fit flex flex-col items-center justify-center">
-           <h1 className="m-3 text-4xl text-green-500 animate-bounce ">Chuck Norries</h1>
+           <h1 className="m-3 text-4xl text-green-500 animate-bounce font-bold ">Chuck Norries</h1>
       <Categories categories={categories}/>
     </div>}
     </>
